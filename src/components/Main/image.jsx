@@ -90,7 +90,7 @@ const AiwithImage = () => {
                         onChange={(e) => handleImageChange(e)} 
                         value="" // Forçar a limpeza do campo de upload de arquivo
                     />}
-                    <button    disabled={!question === !imageInlineData} style={{ marginTop: '20px' }} onClick={() => handleClick()}>Search</button>
+                    <button  style={{ marginTop: '20px' }} onClick={() => handleClick()}>Search</button>
                 </div>
             </div>
 
