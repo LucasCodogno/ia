@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh; /* Ajusta para ocupar a altura total da tela */
-  overflow: hidden;
+  overflow: auto;
   margin: 3%;
 }
 
@@ -31,6 +31,7 @@
   .container {
     width: 100%;
     height: 100vh;
+    overflow: auto;
   }
 }
 

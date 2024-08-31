@@ -188,6 +188,7 @@ input[type="text"], input[type="file"] {
 .container {
     margin: 3%;
     width: 90%;
+    overflow: auto;
 }
 }
 @media (max-width:600px) {

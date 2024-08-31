@@ -6,7 +6,7 @@ import { Context } from '../../context/Context';
 const Main = () => {
     const {selectedImage, setSelectedImage, onSent, recentPrompt, showResult, loading, resultData, setInput, input } = useContext(Context);
 
-console.log(onSent);
+// console.log(onSent);
     // Função chamada quando o usuário seleciona um arquivo
     const handleImageChange = (event) => {
         const file = event.target.files[0];

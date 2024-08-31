@@ -67,7 +67,7 @@ const AiwithText = () => {
                 loading == true && (aiResponse == '') ?
                     <p style={{ margin: '30px 0' }}>Loading ...</p>
                     :
-                    <div style={{ margin: '30px 0' }}>
+                    <div style={{ margin: '30px 0', overflowX: "auto" }}>
                         <p>{aiResponse}</p>
                     </div>
             }
