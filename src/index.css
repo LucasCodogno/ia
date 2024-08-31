@@ -87,8 +87,9 @@ p {
   padding: 10px;
   background-color: #e9e9eb;
   border-radius: 8px;
-  max-height: 70vh; /* Define um limite máximo de altura para o chat box */
+  height: calc(100% - 60px); /* Ajuste conforme necessário */
 }
+
 /* Estilo para as mensagens */
 .message {
   background-color: #dcf8c6;
