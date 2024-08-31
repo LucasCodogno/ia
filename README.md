@@ -1,4 +1,4 @@
-# 🫧 Gemini Clone 
+<!-- # 🫧 Gemini Clone 
 
 <img width="100%" alt="banner" src="https://github.com/vaibhavdhok/Imagify/assets/31030257/049b5652-4253-46b8-b614-b366c3d94f4d">
 
@@ -20,4 +20,4 @@ The **Gemini** app is a cutting-edge AI application powered by Google's Gemini A
     ```bash
    git clone https://github.com/vaibhavdhok/Gemini-C.git
 
-  **Feel free to explore, modify, and enhance this project further!**
+  **Feel free to explore, modify, and enhance this project further!** -->
