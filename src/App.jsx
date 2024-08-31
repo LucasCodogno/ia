@@ -11,7 +11,7 @@ const Home = () => {
   }
 
   return (
-    <div className="container">
+    <div  style={{width: "90%"}}className="container">
       <div style={{ margin: '30px 0' }}>
         <button
           onClick={() => handleAiWith('text')}
