@@ -1,0 +1,74 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilos para botões */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.aiWithActive {
+  background-color: #28a745;
+}
+
+button.aiWithActive:hover {
+  background-color: #218838;
+}
+
+/* Input de texto */
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Input de arquivo */
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para a imagem */
+img {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Estilo para o texto de resposta */
+p {
+  color: #333;
+  font-size: 16px;
+  margin-top: 20px;
+}
