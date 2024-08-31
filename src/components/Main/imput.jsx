@@ -58,9 +58,9 @@ const AiwithText = () => {
                 type='text' 
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-                placeholder="Enter your prompt here"
+                placeholder="Em que posso ajudar..."
                 style={{ marginBottom: '20px' }}
-            /><button style={{ marginLeft: '20px' }} onClick={() => handleClick()}   disabled={!text}>Search</button>
+            /><button style={{ marginLeft: '20px' }} onClick={() => handleClick()}   disabled={!text}>Pesquisar</button>
             </div>
 
             {

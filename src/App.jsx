@@ -16,14 +16,14 @@ const Home = () => {
         <button
           onClick={() => handleAiWith('text')}
           className={aiWith === 'text' ? 'aiWithActive' : ''}>
-          AI with Text
+          Texto
         </button>
 
         <button
           style={{ marginLeft: '20px' }}
           className={aiWith === 'image' ? 'aiWithActive' : ''}
           onClick={() => handleAiWith('image')}>
-          AI with Image
+          Imagem
         </button>
       </div>
 

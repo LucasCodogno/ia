@@ -80,7 +80,7 @@ const AiwithImage = () => {
                         type='text' 
                         value={question}
                         onChange={(e) => setQuestion(e.target.value)}
-                        placeholder="Enter your question here"
+                        placeholder="Em que posso ajudar..."
                         style={{ marginBottom: '20px' }}
                     />
                     
