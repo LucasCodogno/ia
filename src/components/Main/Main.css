@@ -95,7 +95,14 @@
     width: 24px;
     cursor: pointer;
 }
-
+input[type="text"], input[type="file"] {
+    font-size: 16px; /* Defina o tamanho da fonte para 16px ou mais */
+  }
+  
+  button {
+    font-size: 16px; /* Garantir que os botões também tenham um tamanho de fonte adequado */
+  }
+  
 .search-box input {
     flex: 1;
     background: transparent;
