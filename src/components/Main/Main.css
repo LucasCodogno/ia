@@ -205,3 +205,14 @@ input[type="text"], input[type="file"] {
         gap: 5px;
     }
 }
+
+/* Box de chat */
+.chat-box {
+    flex: 1;
+    overflow-y: auto; /* Permite rolagem vertical */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e9e9eb;
+    border-radius: 8px;
+    max-height: 70vh; /* Define um limite máximo de altura para o chat box */
+  }
